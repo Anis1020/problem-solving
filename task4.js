@@ -1,3 +1,6 @@
+const numbers = [1, 2, 3, 4, 5];
+const target = 7;
+
 function findTwoNumbers(numbers, target) {
   let left = 0;
   let right = numbers.length - 1;
@@ -15,3 +18,6 @@ function findTwoNumbers(numbers, target) {
 
   return null;
 }
+
+const result = findTwoNumbers(numbers, target);
+console.log(result);

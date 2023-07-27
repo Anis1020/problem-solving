@@ -1,3 +1,4 @@
+const arr = [2, 1, 4, 5, 8, 6, 3, 22, 15];
 function secondSmallest(numbers) {
   let smallest = Infinity;
   let secondSmallest = Infinity;
@@ -13,3 +14,4 @@ function secondSmallest(numbers) {
 
   return secondSmallest;
 }
+console.log(secondSmallest(arr));

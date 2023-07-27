@@ -12,3 +12,4 @@ function calculator(num1, num2, operator) {
       return null;
   }
 }
+console.log(calculator(2, 5, "+"));

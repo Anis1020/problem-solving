@@ -1,4 +1,5 @@
-function mostFrequentElement(numbers) {
+const arr = [2, 5, 2, 5, 4, 1, 6, 32, , 2, 5, 4, 2];
+const mostFrequentElement = (numbers) => {
   let frequency = {};
   let maxFrequency = 0;
   let mostFrequent = null;
@@ -18,4 +19,5 @@ function mostFrequentElement(numbers) {
   }
 
   return mostFrequent;
-}
+};
+console.log(mostFrequentElement(arr));
